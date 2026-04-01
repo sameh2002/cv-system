@@ -1,0 +1,8 @@
+pymupdf #lire PDF
+python-docx #lire Word
+spacy #NLP (extraire nom, etc.)
+pandas #manipulation données
+scikit-learn
+tqdm #afficher progression
+chromadb
+sentence-transformers

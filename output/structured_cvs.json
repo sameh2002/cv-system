@@ -1,0 +1,228 @@
+[
+    {
+        "file": "data/cvs\\ATS-Friendly-Resume.docx",
+        "entities": {
+            "name": "Michael Harris",
+            "email": "michael.harris@email.com",
+            "skills": [
+                "semrush",
+                "social media",
+                "google analytics",
+                "seo",
+                "content marketing",
+                "git",
+                "sem",
+                "data analysis",
+                "marketing"
+            ],
+            "experience": [
+                {
+                    "text": "Marketing Manager"
+                },
+                {
+                    "text": "XYZ Corporation, Sydney, NSW January 2022 Present Lead a team of 5 in creating and executing digital marketing strategies across multiple platforms, including social media, SEO, and email campaigns. Achieved a 35% increase in website traffic and 50% boost in social media engagement within the first year. Managed a marketing budget of 200,000, ensuring maximum ROI through cost-effective advertising strategies. Digital Marketing Specialist"
+                },
+                {
+                    "text": "ABC Solutions, Melbourne, VIC June 2018 December 2021 Developed and executed SEO and SEM strategies that increased organic search traffic by 25%. Created and managed Google Ads and Facebook Ads campaigns, resulting in a 20% increase in qualified leads. Produced engaging content for blogs, newsletters, and social media platforms to attract target audiences."
+                }
+            ],
+            "education": [
+                {
+                    "text": "University of Sydney, Sydney, NSW Graduated: 2018"
+                }
+            ]
+        },
+        "chunks": [
+            {
+                "type": "GENERAL",
+                "content": "MICHAEL HARRIS Digital Marketing SEO SEM Content Marketing Sydney, Australia michael.harris@email.com +61 412 345 678 linkedin.com/in/michaelharris PROFESSIONAL SUMMARY"
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Created and managed Google Ads and Facebook Ads campaigns, resulting in a 20% increase in qualified leads. Produced engaging content for blogs, newsletters, and social media platforms to attract target audiences."
+            },
+            {
+                "type": "EDUCATION",
+                "content": "University of Sydney, Sydney, NSW Graduated: 2018"
+            },
+            {
+                "type": "SKILLS",
+                "content": "Digital Marketing Strategy, SEO SEM, Google Analytics SEMrush Social Media Marketing, Content Creation Copywriting, Budget Management, Data Analysis"
+            },
+            {
+                "type": "CERTIFICATIONS",
+                "content": "Google Analytics Certified"
+            }
+        ]
+    },
+    {
+        "file": "data/cvs\\Cv_Faten.pdf",
+        "entities": {
+            "name": "Chaabani Faten",
+            "email": "fetenchaabani123@gmail.com",
+            "skills": [
+                "css",
+                "php",
+                "html",
+                "node.js",
+                "react",
+                "angular"
+            ],
+            "experience": [
+                {
+                    "text": "Pipénaire ISET Gafsa -TEKSIGHT"
+                },
+                {
+                    "text": "02/2024 05/2024 Tunisie, Gafsa Development d'une application help desk avec le Compagnie de Phosphates de Gafsa"
+                },
+                {
+                    "text": "01/2023 02/2023 Tunisie, Gafsa Création d'une application web pour la gestion des tâches à réaliser par les agents et des événements de l'entreprise. Tunisie Telecom de kasserine"
+                },
+                {
+                    "text": "01/2022 02/2022 Tunisie, Kasserine Examen des responsabilités au Centre de Transmission. Gestion des réseaux et maintenance. Analyse des méthodologies de travail."
+                }
+            ],
+            "education": [
+                {
+                    "text": "d'informations Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Tunisie, Gafsa Lyceé Majel Bel Abbes 1 2021 Tunisie, Kasserine"
+                }
+            ]
+        },
+        "chunks": [
+            {
+                "type": "GENERAL",
+                "content": "Chaabani Faten Technicienne Supérieure En Informatique fetenchaabani123@gmail.com 23458600 Majel Bel Abbes , Kasserine , Tunisie Profile Diplômée en Informatique avec une spécialisation en Développement de Systèmes d'Information , je possède une expertise solide en développement d'applications . Je m efforce de concevoir des solutions adaptées aux besoins de mes clients grâce à ma maîtrise des nouvelles technologies. Passionnée par les projets innovants, je privilégie le travail d'équipe."
+            },
+            {
+                "type": "EDUCATION",
+                "content": "d'informations Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Tunisie, Gafsa Baccalauréat en Science Expérimentale Lyceé Majel Bel Abbes 1 2021 Tunisie, Kasserine"
+            },
+            {
+                "type": "CERTIFICATIONS",
+                "content": "Certificat d'adhésion au club d'anglais. Certificat de participation à la formation IoT."
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Pipénaire ISET Gafsa -TEKSIGHT 02/2024 05/2024 Tunisie, Gafsa Development d'une application help desk avec le framework angular."
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Compagnie de Phosphates de Gafsa 01/2023 02/2023 Tunisie, Gafsa Création d'une application web pour la gestion des tâches à réaliser par les agents et des événements de l'entreprise."
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Tunisie Telecom de kasserine 01/2022 02/2022 Tunisie, Kasserine Examen des responsabilités au Centre de Transmission. Gestion des réseaux et maintenance. Analyse des méthodologies de travail."
+            },
+            {
+                "type": "SKILLS",
+                "content": "HTML CSS PHP React.Js Node.Js SCRUM"
+            }
+        ]
+    },
+    {
+        "file": "data/cvs\\Cv_Sameh Mbarki.pdf",
+        "entities": {
+            "name": "Mbarki Sameh",
+            "email": "samehmbarki2022@gmail.com",
+            "skills": [
+                "css",
+                "php",
+                "sql",
+                "pl/sql",
+                "git",
+                "html",
+                "node.js",
+                "react"
+            ],
+            "experience": [
+                {
+                    "text": "Pipénaire ISET Gafsa -TEKSIGHT"
+                },
+                {
+                    "text": "02/2024 05/2024 Tunisie, Gafsa Analyse et conception d'une application web."
+                }
+            ],
+            "education": [
+                {
+                    "text": "Licence en développement des systèmes d'informations Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Lyceé Majel Bel Abbes 1 2021"
+                }
+            ]
+        },
+        "chunks": [
+            {
+                "type": "GENERAL",
+                "content": "Mbarki Sameh Technicienne Supérieure en Informatique samehmbarki2022@gmail.com 23706378 Majel Bel Abbes , Kasserine, Tunisia github.com/sameh2002 linkedin.com/in/mbarki-sameh-04b699267"
+            },
+            {
+                "type": "SKILLS",
+                "content": "HTML CSS PHP React.Js Node.js My Sql PL/Sql SCRUM"
+            },
+            {
+                "type": "SKILLS",
+                "content": "en développement d applications et en gestion de bases de données. Grâce à ma maîtrise des technologies, je peux concevoir des solutions adaptées aux besoins des clients.. Je suis motivée à travailler sur des projets innovants et efficaces, en utilisant des méthodologies de travail pour optimiser les solutions en collaboration avec mes collègues. EXPÉRIENCE PROFESSIONNELLE"
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Pipénaire ISET Gafsa -TEKSIGHT 02/2024 05/2024 Tunisie, Gafsa Analyse et conception d'une application web."
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Compagnie de Phosphates de Gafsa 01/2023 02/2023 Tunisie, Gafsa Développement d'une application web de gestion de la liste des tâches à effectuer par les agents et des événements de la compagnie. Tunisie Telecom de kasserine 01/2022 02/2022 Tunisie, Kasserine Observation des méthodologies de travail . Compréhension des tâches au Centre de Transmission:la gestion des réseaux et la maintenance."
+            },
+            {
+                "type": "EDUCATION",
+                "content": "Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Baccalauréat en Science Expérimentale Lyceé Majel Bel Abbes 1 2021"
+            },
+            {
+                "type": "CERTIFICATIONS",
+                "content": "Certificat d'adhésion au club d'anglais., Iset GAFSA Certificat de participation à la formation IoT., Iset GAFSA"
+            }
+        ]
+    },
+    {
+        "file": "data/cvs\\Simple-Resume.docx",
+        "entities": {
+            "name": "Tech Los",
+            "email": null,
+            "skills": [
+                "java",
+                "python",
+                "javascript"
+            ],
+            "experience": [
+                {
+                    "text": "Software Developer"
+                },
+                {
+                    "text": "Tech Innovations, Los Angeles, CA July 2019 - Present Developed web apps in Python and JavaScript, cutting load times by 25%. Collaborated with front-end developers to integrate APIs and improve user experience. Implemented automated testing tools, resulting in a 30% decrease in post-release bugs. Junior Software Developer"
+                },
+                {
+                    "text": "Innovative Solutions, San Diego, CA June 2017 - June 2019 Assisted in debugging code and adding new features to client apps. Created and managed database queries to improve application performance by 15%."
+                }
+            ],
+            "education": [
+                {
+                    "text": "Bachelor of Science in Computer Science University of California, Berkeley Graduated: 2017"
+                }
+            ]
+        },
+        "chunks": [
+            {
+                "type": "EXPERIENCE",
+                "content": "Software Developer Tech Innovations, Los Angeles, CA July 2019 - Present Developed web apps in Python and JavaScript, cutting load times by 25%."
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Implemented automated testing tools, resulting in a 30% decrease in post-release bugs. Junior Software Developer Innovative Solutions, San Diego, CA June 2017 - June 2019 Assisted in debugging code and adding new features to client apps. Created and managed database queries to improve application performance by 15%."
+            },
+            {
+                "type": "EDUCATION",
+                "content": "University of California, Berkeley Graduated: 2017"
+            },
+            {
+                "type": "CERTIFICATIONS",
+                "content": "AWS Certified Developer - Associate Oracle Certified Java Programmer"
+            }
+        ]
+    }
+]
