@@ -5,15 +5,15 @@
             "name": "Michael Harris",
             "email": "michael.harris@email.com",
             "skills": [
+                "seo",
                 "semrush",
                 "social media",
-                "google analytics",
-                "seo",
                 "content marketing",
+                "marketing",
+                "data analysis",
                 "git",
                 "sem",
-                "data analysis",
-                "marketing"
+                "google analytics"
             ],
             "experience": [
                 {
@@ -63,10 +63,10 @@
             "skills": [
                 "css",
                 "php",
+                "angular",
                 "html",
-                "node.js",
                 "react",
-                "angular"
+                "node.js"
             ],
             "experience": [
                 {
@@ -125,14 +125,14 @@
             "name": "Mbarki Sameh",
             "email": "samehmbarki2022@gmail.com",
             "skills": [
+                "pl/sql",
                 "css",
                 "php",
                 "sql",
-                "pl/sql",
-                "git",
                 "html",
                 "node.js",
-                "react"
+                "react",
+                "git"
             ],
             "experience": [
                 {
@@ -186,8 +186,8 @@
             "email": null,
             "skills": [
                 "java",
-                "python",
-                "javascript"
+                "javascript",
+                "python"
             ],
             "experience": [
                 {
