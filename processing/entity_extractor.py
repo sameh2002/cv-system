@@ -4,10 +4,18 @@ import spacy
 nlp_en = spacy.load("en_core_web_sm")
 nlp_fr = spacy.load("fr_core_news_sm")
 
-
-
+# ---------------------------
+# NAME DETECTION
+# ---------------------------
 def detect_name(text):
-    lines = text.split("\n")[:15]
+    lines = text.split("\n")[:10]
+
+    blacklist = [
+        "experience", "education", "skills", "profile",
+        "summary", "cv", "resume", "technicienne",
+        "technicien", "ingenieur", "engineer",
+        "developer", "manager"
+    ]
 
     for line in lines:
         line = line.strip()
@@ -15,45 +23,58 @@ def detect_name(text):
         if not line or "@" in line:
             continue
 
-        if line.lower() in ["developer", "engineer", "manager"]:
+        if any(b in line.lower() for b in blacklist):
             continue
 
-        if line.isupper() and len(line.split()) <= 4:
-            return line.title()
+        # Nettoyer caractères parasites
+        line = re.sub(r"[^A-Za-zÀ-ÿ\s]", "", line)
 
-        clean = re.sub(r"[0-9]", "", line)
-        words = clean.split()
+        words = line.split()
 
-        words = [w for w in words if re.match(r"^[A-Za-zÀ-ÿ\-]+$", w)]
-
-        blacklist = [
-            "experience", "education", "skills", "profile",
-            "summary", "cv", "resume"
-        ]
-
-        if len(words) >= 2 and not any(b in line.lower() for b in blacklist):
-
-            # éviter job titles
-            job_words = ["developer", "engineer", "manager", "intern"]
-            if any(w.lower() in job_words for w in words):
-                continue
-
-            return words[0].capitalize() + " " + words[1].capitalize()
+        if 2 <= len(words) <= 4:
+            if all(w[0].isupper() for w in words if len(w) > 1):
+                return " ".join(words[:3])
 
     return None
 
 
+# ---------------------------
+# SKILLS EXTRACTION
+# ---------------------------
+def extract_skills(text):
+    skills_list = [
+        "python", "java", "sql", "html", "css",
+        "javascript", "react", "node.js", "nodejs",
+        "php", "angular", "docker", "mysql",
+        "pl/sql", "plsql", "git", "linux",
+        "scrum", "aws", "tensorflow", "pytorch"
+    ]
 
+    text_lower = text.lower()
+
+    found = set()
+
+    for skill in skills_list:
+        if skill in text_lower:
+            found.add(skill.replace(".js", "").replace("/", "").strip())
+
+    return list(found)
+
+
+# ---------------------------
+# EXPERIENCE EXTRACTION (IMPROVED)
+# ---------------------------
 def extract_experience(text):
-
     experiences = []
+    lines = text.split("\n")
+
     buffer = []
     in_section = False
 
     keywords = ["experience", "stage", "internship", "work", "expérience"]
-    stop_keywords = ["education", "skills", "compétences", "certificat"]
+    stop_keywords = ["education", "skills", "compétences", "certificat", "langues"]
 
-    for line in text.split("\n"):
+    for line in lines:
         l = line.strip()
         if not l:
             continue
@@ -66,36 +87,38 @@ def extract_experience(text):
 
         if any(k in l_lower for k in stop_keywords):
             if buffer:
-                experiences.append({"text": " ".join(buffer)})
+                experiences.append({"text": clean_text(" ".join(buffer))})
                 buffer = []
             in_section = False
 
         if in_section:
-
-            #  séparation par date
-            if re.search(r"\d{4}", l) and buffer:
-                experiences.append({"text": " ".join(buffer)})
+            # Nouvelle expérience si date détectée
+            if re.search(r"\b(20\d{2}|19\d{2})\b", l) and buffer:
+                experiences.append({"text": clean_text(" ".join(buffer))})
                 buffer = []
 
             buffer.append(l)
 
     if buffer:
-        experiences.append({"text": " ".join(buffer)})
+        experiences.append({"text": clean_text(" ".join(buffer))})
 
     return experiences
 
 
-
+# ---------------------------
+# EDUCATION EXTRACTION (IMPROVED)
+# ---------------------------
 def extract_education(text):
-
     education = []
+    lines = text.split("\n")
+
     buffer = []
     in_section = False
 
-    keywords = ["education", "bachelor", "master", "licence", "baccalauréat"]
-    stop_keywords = ["experience", "skills", "compétences"]
+    keywords = ["education", "bachelor", "master", "licence", "baccalauréat", "formation"]
+    stop_keywords = ["experience", "skills", "compétences", "certificat"]
 
-    for line in text.split("\n"):
+    for line in lines:
         l = line.strip()
         if not l:
             continue
@@ -106,10 +129,9 @@ def extract_education(text):
             in_section = True
             continue
 
-        # éviter mélange certificats
-        if any(k in l_lower for k in stop_keywords) or "certificat" in l_lower:
+        if any(k in l_lower for k in stop_keywords):
             if buffer:
-                education.append({"text": " ".join(buffer)})
+                education.append({"text": clean_text(" ".join(buffer))})
                 buffer = []
             in_section = False
 
@@ -117,36 +139,25 @@ def extract_education(text):
             buffer.append(l)
 
     if buffer:
-        education.append({"text": " ".join(buffer)})
+        education.append({"text": clean_text(" ".join(buffer))})
 
     return education
 
 
-
-def extract_skills(text):
-
-    skills_list = [
-        "python", "java", "sql", "html", "css",
-        "javascript", "react", "node.js", "php",
-        "angular", "docker", "mysql", "pl/sql",
-        "git", "linux",
-        "machine learning", "deep learning",
-        "seo", "marketing", "data analysis",
-        "power bi", "excel",
-        "google analytics", "semrush", "sem",
-        "social media", "content marketing"
-    ]
-
-    text_lower = text.lower()
-
-    found = [skill for skill in skills_list if skill in text_lower]
-
-    return list(set(found))
+# ---------------------------
+# CLEAN TEXT (IMPORTANT)
+# ---------------------------
+def clean_text(text):
+    text = re.sub(r'\s+', ' ', text)
+    text = re.sub(r'http\S+', '', text)  # remove links
+    text = re.sub(r'\S+@\S+', '', text)  # remove emails
+    return text.strip()
 
 
-
+# ---------------------------
+# MAIN FUNCTION
+# ---------------------------
 def extract_entities(text):
-
     entities = {
         "name": detect_name(text),
         "email": None,

@@ -1,19 +1,73 @@
 [
     {
+        "file": "data/cvs\\Achref smari cv.pdf",
+        "entities": {
+            "name": "Achref Smari",
+            "email": "achref.smari9@gmail.com",
+            "skills": [
+                "node",
+                "angular",
+                "php",
+                "react",
+                "linux",
+                "sql",
+                "mysql",
+                "scrum"
+            ],
+            "experience": [
+                {
+                    "text": "I am a self-motivated, reliable, and hard working person that can adapt to all challenging situations. I am capable of working well both in a team environment as well as using my own initiative, i also have an aptitude to work well under pressure and adhere to strict deadlines."
+                },
+                {
+                    "text": "January .2024 Key responsibilities: Theoritical study of technical service of tunisie telecome . planning and development of a PHP based website . Internship . The phosphate company in Gafsa (CPG)"
+                },
+                {
+                    "text": "January .2022 Key responsibilities: Theoretical study of COMPUTER maintenance .. theoritical study of how servers and machines work ."
+                }
+            ],
+            "education": [
+                {
+                    "text": "Baccalaureate in Technology High school of Sned 2017- 2021 My Contact  Gafsa 28 893 332 linkedin.com/in/achrefsmari Internship . TUNISIE TELECOME GAFSA January .2024 Key responsibilities: Theoritical study of technical service of tunisie telecome . planning and development of a PHP based website . Internship . The phosphate company in Gafsa (CPG) January .2022 Key responsibilities: Theoretical study of COMPUTER maintenance .. theoritical study of how servers and machines work ."
+                },
+                {
+                    "text": "Internship . Integrata Stiftung Germany (Online) February .2025 Key responsibilities: Design and development of an AI-powered web platform for speech-based argument mining. Integration of advanced NLP modules to analyze text and audio content. Deployment of the solution in a Linux-based production environment."
+                }
+            ]
+        },
+        "chunks": [
+            {
+                "type": "GENERAL",
+                "content": "Achref Smari FULL-STACK DEVELOPER About Me"
+            },
+            {
+                "type": "EDUCATION",
+                "content": "Baccalaureate in Technology High school of Sned 2017- 2021  Gafsa 28 893 332"
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "January .2024 Key responsibilities: Theoritical study of technical service of tunisie telecome . planning and development of a PHP based website ."
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "January .2022 Key responsibilities: Theoretical study of COMPUTER maintenance .. theoritical study of how servers and machines work ."
+            },
+            {
+                "type": "SKILLS",
+                "content": "Web Mobile: Angular, Laravel, Flutter, React Native . Backend: Node.js (NestJS), Django, FastAPI, Laravel. Databases: PostgreSQL, MySQL, MongoDB. Other Tools Methodologies: Arduino, Scrum . Spanish 2021 - 2025 higher institute of technological studies Gafsa"
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "February .2025 Key responsibilities: Design and development of an AI-powered web platform for speech-based argument mining. Integration of advanced NLP modules to analyze text and audio content. Deployment of the solution in a Linux-based production environment."
+            }
+        ]
+    },
+    {
         "file": "data/cvs\\ATS-Friendly-Resume.docx",
         "entities": {
-            "name": "Michael Harris",
+            "name": "MICHAEL HARRIS",
             "email": "michael.harris@email.com",
             "skills": [
-                "seo",
-                "semrush",
-                "social media",
-                "content marketing",
-                "marketing",
-                "data analysis",
-                "git",
-                "sem",
-                "google analytics"
+                "git"
             ],
             "experience": [
                 {
@@ -35,11 +89,15 @@
         "chunks": [
             {
                 "type": "GENERAL",
-                "content": "MICHAEL HARRIS Digital Marketing SEO SEM Content Marketing Sydney, Australia michael.harris@email.com +61 412 345 678 linkedin.com/in/michaelharris PROFESSIONAL SUMMARY"
+                "content": "MICHAEL HARRIS Digital Marketing SEO SEM Content Marketing PROFESSIONAL SUMMARY"
             },
             {
                 "type": "EXPERIENCE",
-                "content": "Created and managed Google Ads and Facebook Ads campaigns, resulting in a 20% increase in qualified leads. Produced engaging content for blogs, newsletters, and social media platforms to attract target audiences."
+                "content": "Marketing Manager XYZ Corporation, Sydney, NSW January 2022 Present Achieved a 35% increase in website traffic and 50% boost in social media engagement within the first year. Managed a marketing budget of 200,000, ensuring maximum ROI through cost-effective advertising strategies. Digital Marketing Specialist ABC Solutions, Melbourne, VIC June 2018 December 2021 Developed and executed SEO and SEM strategies that increased organic search traffic by 25%. Created and managed Google Ads and Facebook Ads campaigns, resulting in a 20% increase in qualified leads."
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "Produced engaging content for blogs, newsletters, and social media platforms to attract target audiences."
             },
             {
                 "type": "EDUCATION",
@@ -48,10 +106,75 @@
             {
                 "type": "SKILLS",
                 "content": "Digital Marketing Strategy, SEO SEM, Google Analytics SEMrush Social Media Marketing, Content Creation Copywriting, Budget Management, Data Analysis"
+            }
+        ]
+    },
+    {
+        "file": "data/cvs\\CV - MALEK BEN ABBES.pdf",
+        "entities": {
+            "name": "MALEK BEN ABBES",
+            "email": "malekbenabbes2022@gmail.com",
+            "skills": [
+                "node",
+                "php",
+                "react",
+                "html",
+                "sql",
+                "css",
+                "mysql",
+                "scrum"
+            ],
+            "experience": [
+                {
+                    "text": "ENTREPRISE TEKSIGHT DE GAFSA Développement d'une application mobile pour trouver des mécaniciens à proximité en utilisant React Native Expo, Node.js et Express.js"
+                },
+                {
+                    "text": "2024 Feb 2024 May Gafsa, Tunisia LA COMPAGNIE DES PHOSPHATES DE GAFSA Développement d'une application web de payement des agents cpg en utilisant PHP et MySQL."
+                },
+                {
+                    "text": "2023 Jan 2023 Feb Gafsa, Tunisia LA COMPAGNIE DES PHOSPHATES DE GAFSA Création d'un site web en utilisant HTML et CSS"
+                },
+                {
+                    "text": "2022 Jan 2022 Feb Gafsa, Tunisia"
+                }
+            ],
+            "education": [
+                {
+                    "text": "développement Full Stack (Node.js, React)"
+                },
+                {
+                    "text": "objets (IoT) Licence en développement des systèmes d'informations, Institut Supérieur des Etudes Technologiques de gafsa 2022 2024 Baccalauréat en science technique, lyceé Majel Bel Abbes 1 2021 LANGUES Arabe Anglais Français Native/Bilingual Basic Conversational"
+                }
+            ]
+        },
+        "chunks": [
+            {
+                "type": "GENERAL",
+                "content": "MALEK BEN ABBES Technicienne Supérieure en Informatique  Majel belabbes,kasserine,Tunisia abbes- 14a041236 PROFILE"
             },
             {
-                "type": "CERTIFICATIONS",
-                "content": "Google Analytics Certified"
+                "type": "SKILLS",
+                "content": "gestion de bases de données. Grâce à mon parcours, je suis en mesure de développer des solutions répondant aux besoins spécifiques des clients. Je suis prête à contribuer à des projets innovants et efficaces"
+            },
+            {
+                "type": "EXPERIENCE",
+                "content": "ENTREPRISE TEKSIGHT DE GAFSA Développement d'une application mobile pour trouver des mécaniciens à proximité en utilisant React Native Expo, Node.js et Express.js 2024 Feb 2024 May Gafsa, Tunisia LA COMPAGNIE DES PHOSPHATES DE GAFSA Développement d'une application web de payement des agents cpg en utilisant PHP et MySQL. 2023 Jan 2023 Feb Gafsa, Tunisia LA COMPAGNIE DES PHOSPHATES DE GAFSA Création d'un site web en utilisant HTML et CSS 2022 Jan 2022 Feb Gafsa, Tunisia"
+            },
+            {
+                "type": "SKILLS",
+                "content": "HTML CSS REACT.JS NODE.JS PHP MYSQL WORDPRESS SCRUM"
+            },
+            {
+                "type": "SKILLS",
+                "content": "Communication Résolution de problèmes Travail en équipe Services clientèle"
+            },
+            {
+                "type": "EDUCATION",
+                "content": "développement Full Stack (Node.js, React)"
+            },
+            {
+                "type": "EDUCATION",
+                "content": "Institut Supérieur des Etudes Technologiques de gafsa 2022 2024 Baccalauréat en science technique, lyceé Majel Bel Abbes 1 2021 Arabe Anglais Français Native/Bilingual Basic Conversational"
             }
         ]
     },
@@ -61,12 +184,13 @@
             "name": "Chaabani Faten",
             "email": "fetenchaabani123@gmail.com",
             "skills": [
-                "css",
-                "php",
+                "node",
                 "angular",
-                "html",
+                "php",
                 "react",
-                "node.js"
+                "html",
+                "css",
+                "scrum"
             ],
             "experience": [
                 {
@@ -84,22 +208,26 @@
             ],
             "education": [
                 {
-                    "text": "d'informations Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Tunisie, Gafsa Lyceé Majel Bel Abbes 1 2021 Tunisie, Kasserine"
+                    "text": "Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Tunisie, Gafsa Lyceé Majel Bel Abbes 1 2021 Tunisie, Kasserine"
                 }
             ]
         },
         "chunks": [
             {
                 "type": "GENERAL",
-                "content": "Chaabani Faten Technicienne Supérieure En Informatique fetenchaabani123@gmail.com 23458600 Majel Bel Abbes , Kasserine , Tunisie Profile Diplômée en Informatique avec une spécialisation en Développement de Systèmes d'Information , je possède une expertise solide en développement d'applications . Je m efforce de concevoir des solutions adaptées aux besoins de mes clients grâce à ma maîtrise des nouvelles technologies. Passionnée par les projets innovants, je privilégie le travail d'équipe."
+                "content": "Chaabani Faten Technicienne Supérieure En Informatique  23458600 Majel Bel Abbes , Kasserine , Tunisie Profile Diplômée en Informatique avec une spécialisation en"
             },
             {
                 "type": "EDUCATION",
-                "content": "d'informations Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Tunisie, Gafsa Baccalauréat en Science Expérimentale Lyceé Majel Bel Abbes 1 2021 Tunisie, Kasserine"
+                "content": "possède une expertise solide en développement d'applications . Je m efforce de concevoir des solutions adaptées aux besoins de mes clients grâce à ma maîtrise des nouvelles technologies. Passionnée par les projets innovants, je privilégie le travail d'équipe."
+            },
+            {
+                "type": "EDUCATION",
+                "content": "Institut Supérieur des Etudes Technologiques de Gafsa 2022 2024 Tunisie, Gafsa Baccalauréat en Science Expérimentale Lyceé Majel Bel Abbes 1 2021 Tunisie, Kasserine"
             },
             {
                 "type": "CERTIFICATIONS",
-                "content": "Certificat d'adhésion au club d'anglais. Certificat de participation à la formation IoT."
+                "content": "Certificat d'adhésion au club d'anglais."
             },
             {
                 "type": "EXPERIENCE",
@@ -116,6 +244,10 @@
             {
                 "type": "SKILLS",
                 "content": "HTML CSS PHP React.Js Node.Js SCRUM"
+            },
+            {
+                "type": "SKILLS",
+                "content": "Créativité et innovation Esprit d équipe Résolution de problèmes Arabe : Langue Maternelle Anglais : Courant Français : Courant"
             }
         ]
     },
@@ -125,14 +257,15 @@
             "name": "Mbarki Sameh",
             "email": "samehmbarki2022@gmail.com",
             "skills": [
-                "pl/sql",
-                "css",
+                "node",
                 "php",
-                "sql",
-                "html",
-                "node.js",
                 "react",
-                "git"
+                "plsql",
+                "html",
+                "git",
+                "sql",
+                "css",
+                "scrum"
             ],
             "experience": [
                 {
@@ -151,7 +284,7 @@
         "chunks": [
             {
                 "type": "GENERAL",
-                "content": "Mbarki Sameh Technicienne Supérieure en Informatique samehmbarki2022@gmail.com 23706378 Majel Bel Abbes , Kasserine, Tunisia github.com/sameh2002 linkedin.com/in/mbarki-sameh-04b699267"
+                "content": "Mbarki Sameh Technicienne Supérieure en Informatique  23706378 Majel Bel Abbes , Kasserine, Tunisia"
             },
             {
                 "type": "SKILLS",
@@ -159,7 +292,11 @@
             },
             {
                 "type": "SKILLS",
-                "content": "en développement d applications et en gestion de bases de données. Grâce à ma maîtrise des technologies, je peux concevoir des solutions adaptées aux besoins des clients.. Je suis motivée à travailler sur des projets innovants et efficaces, en utilisant des méthodologies de travail pour optimiser les solutions en collaboration avec mes collègues. EXPÉRIENCE PROFESSIONNELLE"
+                "content": "Communication Adaptabilité et apprentissage rapide Résolution de problèmes Arabe : Langue Maternelle Anglais : Courant Français : Courant PROFILE Titulaire d'un diplôme en Informatique avec une spécialisation en"
+            },
+            {
+                "type": "EDUCATION",
+                "content": "en développement d applications et en gestion de bases de données. Grâce à ma maîtrise des technologies, je peux concevoir des solutions adaptées aux besoins des clients.. Je suis motivée à travailler sur des projets innovants et efficaces, en utilisant des méthodologies de travail pour optimiser les solutions en collaboration avec mes collègues."
             },
             {
                 "type": "EXPERIENCE",
@@ -175,17 +312,18 @@
             },
             {
                 "type": "CERTIFICATIONS",
-                "content": "Certificat d'adhésion au club d'anglais., Iset GAFSA Certificat de participation à la formation IoT., Iset GAFSA"
+                "content": "Certificat d'adhésion au club d'anglais., Iset GAFSA"
             }
         ]
     },
     {
         "file": "data/cvs\\Simple-Resume.docx",
         "entities": {
-            "name": "Tech Los",
+            "name": null,
             "email": null,
             "skills": [
                 "java",
+                "aws",
                 "javascript",
                 "python"
             ],
